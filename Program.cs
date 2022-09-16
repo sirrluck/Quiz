@@ -1,4 +1,4 @@
-﻿public class KFC {
+public class KFC {
     public string capital;
     public string branchName;
     public string address;
@@ -13,7 +13,7 @@
         return "information is : " 
         + this.capital + " " +
          this.branchName + " " +
-         this.address + " " +
+         this.address + " " +;
     }
 }
 
@@ -33,3 +33,5 @@ public class User {
         + this.name + " " + this.surname + " " +
          this.citizenID;
     }
+}
+
